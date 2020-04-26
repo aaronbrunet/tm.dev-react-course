@@ -7,20 +7,16 @@ import Battle from './components/Battle'
 // Component
 // State
 // Lifecycle
-// UI 
+// UI
 
 class App extends React.Component {
-    render() {
-        return (
-            <div className='container'>
-                <Battle />
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className='container'>
+        <Battle />
+      </div>
+    )
+  }
 }
 
-ReactDOM.render(
-    <App />,
-    document.getElementById('app')
-)
-
+ReactDOM.render(<App />, document.getElementById('app'))
